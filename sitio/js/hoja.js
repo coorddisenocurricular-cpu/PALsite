@@ -99,7 +99,7 @@ function colaEncolar(fila){
 }
 
 async function enviarFila(fila){
-  if(!URL_APPS_SCRIPT || URL_APPS_SCRIPT.indexOf('PEGA_AQUI') === 0){
+  if(!URL_APPS_SCRIPT || URL_APPS_SCRIPT.indexOf('https://script.google.com/macros/s/AKfycbwysJKSWpQgEn1LnZ6fKxSByrzLXqFnskW6HXIuXpLvL58uzzV8vUD5JSBUdLRsVFPI/exec') === 0){
     return false; // aún no configurado: no truena, simplemente no manda nada
   }
   try{
